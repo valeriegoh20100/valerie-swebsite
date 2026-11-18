@@ -1,0 +1,153 @@
+
+/* css classes*/
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dongle-regular {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ultra-regular {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  Background Image */
+body {
+    background-color: #fcdbe9; 
+    background-image: url('images/background4.jpg'); 
+    background-repeat: repeat; 
+    background-size: auto;     
+    background-attachment: fixed; 
+}
+
+
+#container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+
+    border: 6px dotted #eed0fd; 
+    border-radius: 15px; 
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Dongle", serif;
+    font-size: 80px;
+    color: #6c7f9b;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-weight: normal;
+    font-family:"Rubik Puddles", sans-serif;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #e3b8f8;
+}
+
+h3{
+    font-family: "Rubik Puddles", sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #6c7f9b;
+    font-weight: bold;
+}
+
+
+p{
+    font-family: 'Dongle', serif;
+    font-size: 20.5px;
+    color: #6c7f9b;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*MENU SECTION*/
+#menu ul{
+    list-style: none;
+    margin: 0px 0px 5px 0px; 
+    padding: 0px;
+    display: flex; /* PUTS THEM SIDE BY SIDE BUTTONs!! 'flex'*/
+    gap: 10px;   
+}
+
+#menu li{
+    background-color: #BDE0FE;
+    border: 1px solid #eed0fd;
+    padding: 6px 12px; 
+    border-radius: 10px;
+}
+/*LINK STYLES*/
+#menu a:link, #menu a:visited{
+    color: #6c7f9b;
+    font-weight: bold;
+    text-decoration: none;
+    display: block; 
+}
+
+#menu a:hover, #menu a:active{
+    color: #FFC8DD;
+    text-decoration: underline;
+}
+
+/*MAIN SECTION*/
+#main{
+    margin-left: 10px;
+}
+
+#main h3{
+    color: #6c7f9b;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+
+/*CLASS STYLES*/
+.rightfloat{
+    border: 2px solid #eed0fd;
+    margin: 8px;
+    float: right;
+}
+
+.leftfloat{
+    border: 2px solid #eed0fd;
+    margin: 8px;
+    float: left;
+}
+
+
+
+/*FOOTER*/
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+  padding: 15px;
+  border-color: #e3b8f8;
+}
+
+/* Style your footer */
+.site-footer {
+  background-color: #fcdbe9;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: Arial, sans-serif;
+}
